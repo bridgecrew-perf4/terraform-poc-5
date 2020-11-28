@@ -1,0 +1,5 @@
+.idea
+.DS_Store
+mgmt/vpc/vpccreds.tfvars
+mgmt/vpc/vpc.tfvars
+mgmt/vpc/.terraform
