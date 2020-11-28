@@ -18,7 +18,7 @@ dev          | This is the directory where we will be constructing the Terraform
 To get started, follow the steps below:
 1. Clone the repository to your workstation.
 2. Go into ../mgmt/vpc/ directory and update the `vpccreds.tfvars` and `vpc.tfvars` with the appropriate values.
-3. If this is the first time you are doing any of this, either lookup how to get remote state configured with S3 and DynamoDB. Otherwise, use the sample I have available on my GitHub.
+3. If this is the first time you are doing any of this, either lookup how to get remote state configured with S3 and DynamoDB. Otherwise, use the sample I have available on my [GitHub repository](https://github.com/mochowdhury/terraform-remote-state/ "Terraform Remote State Repository Link").
 4. If your Terraform remote state is ready to go, change over to the ../mgmt directory and run `terraform init` to initialize the project.
     1. Perform a `terraform plan` to see what's to be expected.
     2. Perform a `terraform apply` to create the "environment"/"stack".
