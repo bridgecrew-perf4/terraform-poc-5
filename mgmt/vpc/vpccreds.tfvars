@@ -1,0 +1,5 @@
+mgmtAccountId    = [""]
+
+mgmtAccessKey    = ""
+
+mgmtSecretKey    = ""
